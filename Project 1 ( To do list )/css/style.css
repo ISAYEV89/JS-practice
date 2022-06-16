@@ -347,6 +347,17 @@ input[type="radio"], input[type="checkbox"] {
     color: #405189 !important
 }
 
+
+.edit {
+    color: #405189 !important;
+    cursor: pointer;
+}
+
+.todo-list {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 .list-wrapper .remove {
     cursor: pointer;
     font-size: 1.438rem;
@@ -357,9 +368,6 @@ input[type="radio"], input[type="checkbox"] {
     text-align: center
 }
 
-.ml-auto, .list-wrapper .remove, .mx-auto {
-    margin-left: auto !important
-}
 
 .mdi-close-circle-outline:before {
     content: "\F15A"
@@ -369,6 +377,11 @@ input[type="radio"], input[type="checkbox"] {
     font-size: .9375rem;
     padding: .4rem 0;
     border-bottom: 1px solid #f3f3f3
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
 }
 
 .mdi:before {
